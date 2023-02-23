@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 1440px;
+  font-family: "Poppins";
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(./images/bg-intro-desktop.png);
+}
+
+/* ======================== Star Main Area ================ */
+
+.site {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+/* ======================== Start Intro Section Area ================ */
+
+.intro {
+  margin-top: 300px;
+  width: 500px;
+  text-align: start;
+  margin-right: 130px;
+  margin-left: 20px;
+}
+
+.intro-h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 35px;
+  font-style: normal;
+  color: hsl(0, 0%, 100%);
+  line-height: 55px;
+}
+
+.intro-para {
+  font-size: 1rem;
+  color: hsl(0, 0%, 100%);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 30px;
+}
+/* ======================== End Intro Section Area ================ */
+/* ======================== Start Info Section Area ================ */
+
+.info-para {
+  font-size: 1rem;
+  color: hsl(0, 0%, 100%);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0px 10px hsla(249, 10%, 26%, 0.39);
+}
+
+.info-para > span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.info-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px 10px;
+  margin-top: 50px;
+  box-shadow: 0px 10px hsla(249, 10%, 26%, 0.39);
+}
+
+.form-div {
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.form-input {
+  width: 90%;
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid hsl(246, 25%, 77%);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.form-input:focus {
+  outline: 2px solid hsl(248, 32%, 49%);
+  border: none;
+}
+
+.icon {
+  position: absolute;
+  margin-left: 450px;
+  margin-top: -40px;
+  display: none;
+}
+
+.input-para {
+  text-align: end;
+  padding-right: 35px;
+  margin: 10px 0px;
+  color: hsl(0, 100%, 74%);
+  display: none;
+}
+
+.btn {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  font-size: 1.4rem;
+  color: hsl(0, 0%, 100%);
+  font-style: normal;
+  font-weight: 600;
+  box-shadow: 0px 10px hsla(249, 10%, 26%, 0.39);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: hsla(154, 59%, 51%, 0.582);
+}
+
+.form-para {
+  margin-top: 30px;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  color: hsl(246, 25%, 77%);
+  padding: 0px 20px;
+}
+
+.form-para > span {
+  color: hsl(0, 100%, 74%);
+}
+
+/* ======================== End Info Section Area ================ */
+
+/* ======================== End Main Area ================ */
+
+/* ======================== START Footer Area ================ */
+
+.foot {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: hsl(0, 100%, 74%);
+  justify-content: center;
+  background-color: black;
+  padding: 5px;
+  margin-top: 70px;
+}
+
+.foot a {
+  color: hsl(154, 59%, 51%);
+  text-decoration: none;
+}
+
+br {
+  display: none;
+}
+
+/* ======================== End Footer Area ================ */
+
+/* ======================== Start Media Querry Area ================ */
+
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url(./images/bg-intro-mobile.png);
+    min-width: fit-content;
+  }
+
+  .site {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+  }
+
+  .intro {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+  br {
+    display: block;
+  }
+}
+
+/* ======================== End Media Querry Area ================ */
