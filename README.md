@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:(https://github.com/karam-7/base-apparel)
-- Live Site URL:(https://karam-7.github.io/base-apparel/)
+- Solution URL:(https://github.com/karam-7/intro-component)
+- Live Site URL:(https://karam-7.github.io/intro-component/)
 
 ## My process
 
